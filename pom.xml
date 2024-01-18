@@ -15,20 +15,27 @@
   </properties>
 
   <dependencies>
-    <!-- https://mvnrepository.com/artifact/org.testng/testng -->
     <dependency>
-      <groupId>org.testng</groupId>
-      <artifactId>testng</artifactId>
-      <version>7.9.0</version>
-      <scope>test</scope>
+      <groupId>io.cucumber</groupId>
+      <artifactId>cucumber-java</artifactId>
+      <version>7.15.0</version>
     </dependency>
-<!-- Cucumber-->
+
+
+    <!-- Cucumber-->
     <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-java -->
     <dependency>
       <groupId>io.cucumber</groupId>
       <artifactId>cucumber-java</artifactId>
       <version>7.15.0</version>
     </dependency>
+    <!-- Selenium Java -->
+    <dependency>
+      <groupId>org.seleniumhq.selenium</groupId>
+      <artifactId>selenium-java</artifactId>
+      <version>4.16.1</version>
+    </dependency>
+
 
   </dependencies>
 </project>
