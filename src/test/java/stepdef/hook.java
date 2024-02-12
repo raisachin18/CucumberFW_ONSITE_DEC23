@@ -3,6 +3,7 @@ package stepdef;
 import base.config;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
+import jdk.internal.joptsimple.internal.Strings;
 
 public class hook extends config {
     public static String url;
@@ -11,6 +12,12 @@ public class hook extends config {
 
     @Before
     public void beforeEachTest(){
+        if (Strings.isNullOrEmpty(browserType)){
+            browserType="ch";
+        }
+        if (Strings.isNullOrEmpty(envType)){
+            envType="qa";
+        }
         driver = setupBrowser(browserType);
         switch (envType){
             case "qa":

@@ -12,7 +12,7 @@ Feature; TalentTek Login Feature
     And student enter there valid email address
     And student enter there invalid password
     When student clicks on login button
-    Then Student should get an error message for enetering invalid credentials
+    Then Student should get an error message for entering invalid credentials
 
   Scenario: Student logs in with invalid email address
     Given student at TalentTek Homepage

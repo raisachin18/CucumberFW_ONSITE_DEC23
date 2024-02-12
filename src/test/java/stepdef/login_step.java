@@ -7,23 +7,40 @@ import io.cucumber.java.en.When;
 
 public class login_step {
     @Given("student at TalentTek Homepage")
-    public void studentAtTalentTEKHomepage(){
-        // selenium code
-    }
-    @And("student enter their valid email address")
-    public void studentEnterTheirValidEmailAddress(){
-        
-    }
-    @And("student enter their valid password")
-    public void studentEnterTheirValidPassword(){
+    public void studentAtTalentTekHomepage() {
+
 
     }
-    @When("student clicks on Login Button")
-    public void studentClicksOnLoginButton(){
+
+    @And("student enter there valid email address")
+    public void studentEnterThereValidEmailAddress() {
         
     }
-    @Then("student should be successfully login")
-    public void studentShouldBeSuccessfullyLogin(){
+
+    @And("student enter there valid password")
+    public void studentEnterThereValidPassword() {
         
+    }
+
+    @When("student clicks on login button")
+    public void studentClicksOnLoginButton() {
+        
+    }
+
+    @Then("Student should be successfully login")
+    public void studentShouldBeSuccessfullyLogin() {
+    }
+
+    @And("student enter there invalid password")
+    public void studentEnterThereInvalidPassword() {
+        
+    }
+
+    @Then("Student should get an error message for entering invalid credentials")
+    public void studentShouldGetAnErrorMessageForEnteringInvalidCredentials() {
+    }
+
+    @And("student enter there invalid email address")
+    public void studentEnterThereInvalidEmailAddress() {
     }
 }
